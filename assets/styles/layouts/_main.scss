@@ -1,0 +1,82 @@
+main {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .side {
+    position: absolute;
+    top: -62px;
+    right: 666px;
+    height: 662px;
+    width: 270px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    h3,
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        right: 30px;
+        border: 2px solid;
+        margin: 5px;
+        height: 50px;
+        width: 130px;
+        border-radius: 50px;
+      }
+    }
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 350px;
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    .toggle {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      span {
+        position: relative;
+        left: 235px;
+        display: flex;
+        border: 2px solid;
+        border-radius: 30px;
+        width: 55px;
+        height: 8px;
+        background: #000;
+        margin: 5px;
+      }
+    }
+    .face {
+      height: 120px;
+      width: 120px;
+      object-fit: cover;
+      background: url("../../../assets/img/walid.JPG") no-repeat center/cover;
+      border-radius: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .txt {
+      text-align: center;
+      letter-spacing: 2px;
+      position: relative;
+      bottom: 0px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 500px;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,22 @@
+nav {
+  border: 2px solid green;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+    li {
+      border: 2px solid green;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 20px;
+      width: 100px;
+      height: 30px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+  }
+}
